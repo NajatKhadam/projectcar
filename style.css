@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+#my-avatar {
+  width: 35px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+#home {
+  height: 100vh;
+  background-image: url("images/car.png");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF
+}
+
+
+.btn-link {
+  border: 1px solid #FFFFFF;
+  padding: 9px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+#title {
+  text-shadow: 1px 1px 1px black;
+  font-size:55px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.picto {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.add{
+  margin-top: 25px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+.asset-list {
+  background-color: rgb(99, 99, 104);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items:stretch;
+  flex-direction: row;
+
+}
+
+.asset {
+  margin-top: 70px;
+  padding: 25px;
+  color: #FFFFFF;
+  display:inline-table;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  scroll-behavior: auto;
+  text-align:center;
+}
+
+.asset-text{
+  font-size:14px
+  align-items:center;
+  align-content: space-around;
+  margin-top:auto;
+  text-align: justify;
+}
+
+#base-line{
+  font-size : 28px;
+}
+
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
